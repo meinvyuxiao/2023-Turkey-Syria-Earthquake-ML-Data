@@ -11,12 +11,15 @@ Yu, X., Hu, X., Song, Y., Xu, S., Li, X., Song, X., Fan, X., & Wang, F. (2024). 
 We have processed 5 features to establish the machine learning model, i.e., Amplitude Dispersion Index (adi), Damage_Proxy_from_Sentinel (dpm), Damage_Proxy_from_ALOS (dpm_alos),  Normalized Difference Built-up Index (ndbi), and Peak ground acceleration (pga). The ground truth (GT) file is included too. All features are selected within each damage level. 
 
 There are three folders attached:
+
 **resampled_tifs**: A collection of all features' raster files in GeoTiff format.
+
 **GT_ka_shps**: The ground truth of 5 damage levels in the city of Kahramanmaraş, Turkey in shp format.
+
 **all_features_4damge_level_select_within_shps**: A collection of all features' raster files selected within the corresponding damage level in GeoTiff format.
 
 
-There are 8 columns in the summary file - 'data_collection.txt', in the order of 1. Longitude, 2. Latitude, 3. Amplitude Dispersion Index, 4. Damage_Proxy_from_Sentinel1, 5. Damage_Proxy_from_ALOS2, 6. Normalized Difference Built-up Index, 7. Peak ground acceleration, 8.Ground_Truth.
+There are 8 columns in the summary file - 'data_collection.txt', in the order of 1. Longitude, 2. Latitude, 3. Amplitude Dispersion Index, 4. Damage_Proxy_from_Sentinel1, 5. Damage_Proxy_from_ALOS2, 6. Normalized Difference Built-up Index, 7. Peak ground acceleration, 8. Ground_Truth.
 
 For the ground truth ranging from 0-4, the meaning is:
 0:  no damage;
