@@ -30,4 +30,4 @@ For the ground truth ranging from 0-4, the meaning is:
 
 The data used in the paper only includes 3 damage levels (0,1,2), i.e., no damage(0), slight damage(1), serious damage(2).
 
-The “no damage” means the buildings were not affected, “slight damage” indicates the damages were generally repairable, and “serious damage” indicates that the buildings were heavily damaged (concrete construction and structure destroyed), to be demolished (partially collapsed buildings, e.g., those standing still with the first floor collapsing and disappearing) or collapsed (buildings in ruins)
+The “no damage” means the buildings were not affected, “slight damage” indicates the damages were generally repairable, and “serious damage” indicates that the buildings were heavily damaged (concrete construction and structure destroyed), to be demolished (partially collapsed buildings, e.g., those standing still with the first floor collapsing and disappearing), and collapsed (buildings in ruins).
