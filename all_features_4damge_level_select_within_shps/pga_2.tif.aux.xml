@@ -1,0 +1,28 @@
+<PAMDataset>
+  <Metadata>
+    <MDI key="NC_GLOBAL#Conventions">CF-1.7</MDI>
+    <MDI key="NC_GLOBAL#GMT_version">6.2.0 [64-bit]</MDI>
+    <MDI key="NC_GLOBAL#history">surface pga.txt -R36.6998662196/37.2001770326/37.3796758357/37.6613611019 -I0.000277796120489/0.000277796120513 -Ll0.05 -T0.25 -C0.1 -Vl -Gpga.grd</MDI>
+    <MDI key="NC_GLOBAL#title">Data gridded with continuous surface splines in tension</MDI>
+    <MDI key="x#actual_range">{36.6998662196,37.2001770326}</MDI>
+    <MDI key="x#long_name">x</MDI>
+    <MDI key="y#actual_range">{37.3796758357,37.6613611019}</MDI>
+    <MDI key="y#long_name">y</MDI>
+    <MDI key="z#actual_range">{0.05000000074505806,0.7209867238998413}</MDI>
+    <MDI key="z#long_name">z</MDI>
+    <MDI key="z#_FillValue">nan</MDI>
+  </Metadata>
+  <PAMRasterBand band="1">
+    <Metadata>
+      <MDI key="actual_range">{0.05000000074505806,0.7209867238998413}</MDI>
+      <MDI key="long_name">z</MDI>
+      <MDI key="NETCDF_VARNAME">z</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.43690621852875</MDI>
+      <MDI key="STATISTICS_MEAN">0.29449766441699</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.16921152174473</MDI>
+      <MDI key="STATISTICS_STDDEV">0.044923304556792</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">0.1151</MDI>
+      <MDI key="_FillValue">nan</MDI>
+    </Metadata>
+  </PAMRasterBand>
+</PAMDataset>
