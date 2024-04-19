@@ -4,10 +4,11 @@ This is the clean and sorted data prepared for the classification model in the p
 Please refer to the paper for more details.
 
 If you apply the data and methodology in this paper, please add the citation: 
-Yu, X., Hu, X., Song, Y., Xu, S., Li, X., Song, X., Fan, X., & Wang, F. (2024). Intelligent assessment of building damage of 2023 Turkey-Syria Earthquake by multiple remote sensing approaches. Npj Natural Hazards, 1(1). https://doi.org/10.1038/s44304-024-00003-0
+
+Yu, X., Hu, X., Song, Y., Xu, S., Li, X., Song, X., Fan, X., & Wang, F. (2024). Intelligent assessment of building damage of 2023 Turkey-Syria Earthquake by multiple remote sensing approaches. npj Natural Hazards, 1(1). https://doi.org/10.1038/s44304-024-00003-0
 
 
-We have processed 5 features to establish the machine learning model, i.e., Amplitude Dispersion Index(adi), Damage_Proxy_from_Sentinel(dpm), Damage_Proxy_from_ALOS(dpm_alos),  Normalized Difference Built-up Index(ndbi), and Peak ground acceleration(pga). The ground truth(GT) file is included too. All features are selected within each damage level. 
+We have processed 5 features to establish the machine learning model, i.e., Amplitude Dispersion Index (adi), Damage_Proxy_from_Sentinel (dpm), Damage_Proxy_from_ALOS (dpm_alos),  Normalized Difference Built-up Index (ndbi), and Peak ground acceleration (pga). The ground truth (GT) file is included too. All features are selected within each damage level. 
 
 There are three folders attached:
 **resampled_tifs**: A collection of all features' raster files in GeoTiff format.
