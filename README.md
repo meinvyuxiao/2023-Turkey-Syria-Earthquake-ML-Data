@@ -14,8 +14,6 @@ There are three folders attached:
 
 **resampled_tifs**: A collection of all features' raster files in GeoTiff format.
 
-**GT_ka_shps**: The ground truth of 5 damage levels in the city of Kahramanmaraş, Turkey in shp format.
-
 **all_features_4damge_level_select_within_shps**: A collection of all features' raster files selected within the corresponding damage level in GeoTiff format.
 
 
