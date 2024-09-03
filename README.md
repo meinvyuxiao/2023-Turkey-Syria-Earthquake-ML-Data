@@ -14,17 +14,6 @@ There are three folders attached:
 
 **resampled_tifs**: A collection of all features' raster files in GeoTiff format.
 
-**all_features_4damge_level_select_within_shps**: A collection of all features' raster files selected within the corresponding damage level in GeoTiff format.
-
-
-There are 8 columns in the summary file - 'data_collection.txt', in the order of 1. Longitude, 2. Latitude, 3. Amplitude Dispersion Index, 4. Damage_Proxy_from_Sentinel1, 5. Damage_Proxy_from_ALOS2, 6. Normalized Difference Built-up Index, 7. Peak ground acceleration, 8. Ground_Truth.
-
-For the ground truth ranging from 0-4, the meaning is:
-0:  no damage;
-1: slight damage;
-2: heavily damaged;
-3: to be demolished;
-4: collapsed;
 
 The data used in the paper only includes 3 damage levels (0,1,2), i.e., no damage(0), slight damage(1), serious damage(2).
 
